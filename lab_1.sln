@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Лабораторная 1 часть 1", "Лабораторная 1 часть 1\Лабораторная 1 часть 1.vcxproj", "{76A205CF-16E5-47E2-9942-415704B53C96}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "task_1", "Лабораторная 1 часть 1\Лабораторная 1 часть 1.vcxproj", "{76A205CF-16E5-47E2-9942-415704B53C96}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Лабораторная работа 1 часть 2", "Лабораторная работа 1 часть 2\Лабораторная работа 1 часть 2.vcxproj", "{EA0849AD-30A9-4C85-90F3-2814FC3BE7EB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "task_2", "Лабораторная работа 1 часть 2\Лабораторная работа 1 часть 2.vcxproj", "{EA0849AD-30A9-4C85-90F3-2814FC3BE7EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lab_1", "lab_1", "{33C8BBD2-B39A-42BD-B7FA-8704AD892DA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +36,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76A205CF-16E5-47E2-9942-415704B53C96} = {33C8BBD2-B39A-42BD-B7FA-8704AD892DA6}
+		{EA0849AD-30A9-4C85-90F3-2814FC3BE7EB} = {33C8BBD2-B39A-42BD-B7FA-8704AD892DA6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A66E8407-644C-40F2-94EF-1DF3F85DB2D3}
