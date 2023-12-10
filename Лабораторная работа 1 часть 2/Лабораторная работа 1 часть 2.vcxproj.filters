@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Лабораторная работа 1 часть 2.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="ReadPersonAge.cpp">
@@ -33,7 +33,7 @@
     <ClCompile Include="ReadPersonSalary.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="ReadPersonData.cpp">
+    <ClCompile Include="ReadPersonData1.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="ReadPersonData2.cpp">

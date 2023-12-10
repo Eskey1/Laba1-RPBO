@@ -79,6 +79,7 @@ void WritePersonData(string &name, const string &height, const string &weight, c
 		"Заработная плата: " << salary2 << endl;
 }
 
+#ifndef DO_NOT_DEFINE_MAIN
 int main()
 {
 	setlocale(LC_ALL, "Russian");
@@ -94,3 +95,4 @@ int main()
 	ReadPersonData(name, age, weight, height);
 	WritePersonData(name, to_string(height), to_string(weight), &age);
 }
+#endif
